@@ -1739,11 +1739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\QA36\\source\\repos\\POM2\\SeleniumPOM\\SeleniumPOM\\SeleniumPOM.csproj",
+      "projectUniqueName": "C:\\Users\\QA36\\source\\repos\\POM3\\SeleniumPOM\\SeleniumPOM.csproj",
       "projectName": "SeleniumPOM",
-      "projectPath": "C:\\Users\\QA36\\source\\repos\\POM2\\SeleniumPOM\\SeleniumPOM\\SeleniumPOM.csproj",
+      "projectPath": "C:\\Users\\QA36\\source\\repos\\POM3\\SeleniumPOM\\SeleniumPOM.csproj",
       "packagesPath": "C:\\Users\\QA36\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\QA36\\source\\repos\\POM2\\SeleniumPOM\\SeleniumPOM\\obj\\",
+      "outputPath": "C:\\Users\\QA36\\source\\repos\\POM3\\SeleniumPOM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -8,13 +8,26 @@ public class HomePage
 {
     private IWebDriver _driver = WebDriver.Instance;
 
-    // ovde ubaciti selectore
+    public IWebElement Initial => _driver.FindElement(By.Id("Initial"));
+    public IWebElement FirstName=> _driver.FindElement(By.Id("FirstName"));
+    public IWebElement MiddleName=> _driver.FindElement(By.Id("MiddleName"));
+    public IWebElement Female => _driver.FindElement(By.Name("Female"));
+    public IWebElement Hindi => _driver.FindElement(By.Name("Hindi"));
+    public IWebElement SaveButton => _driver.FindElement(By.Name("Save"));
+    public IWebElement HtmlPopup => _driver.FindElement(By.LinkText("HtmlPopup"));
+    public IWebElement Generate => _driver.FindElement(By.Name("generate"));
 
-    public void SelectOption(string option)
+    public void Title(string option)
     {
         SelectElement drop = new SelectElement(_driver.FindElement(By.Id("TitleId")));
         drop.SelectByText(option); // ovo vam sluzi da izabere iz drop downa Mr. ili Ms. potrebno je da mu u test kazete sta od ova dva zelite da izbare
     }
-
+    
+     public void Alert()
+    {
+        Generate.Click();
+        _driver.SwitchTo().Alert().Accept();
+        
+    }
 
 }
